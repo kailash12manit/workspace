@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;linkedlist_demo&apos; to &apos;Basics/src&apos;&#x0D;&#x0A;- Original project: &apos;LinkedList&apos;&#x0D;&#x0A;- Destination element: &apos;Basics/src&apos;&#x0D;&#x0A;- Original element: &apos;LinkedList/src/linkedlist_demo&apos;" description="Copy package" destination="=Basics/src" element1="/src&lt;linkedlist_demo" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1543943814102" version="1.0"/>
+</session>

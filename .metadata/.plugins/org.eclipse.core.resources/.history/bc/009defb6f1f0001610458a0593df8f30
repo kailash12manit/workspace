@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package strings_demo;
+
+/**
+ * @author kailash
+ *
+ */
+public class Equals_deom {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

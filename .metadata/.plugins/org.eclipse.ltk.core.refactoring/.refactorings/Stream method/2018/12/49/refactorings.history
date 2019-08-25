@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;Stream&apos; to &apos;Basics/src&apos;&#x0D;&#x0A;- Original project: &apos;Stream method&apos;&#x0D;&#x0A;- Destination element: &apos;Basics/src&apos;&#x0D;&#x0A;- Original element: &apos;Stream method/src/Stream&apos;" description="Copy package" destination="=Basics/src" element1="/src&lt;Stream" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1543944050817" version="1.0"/>
+</session>

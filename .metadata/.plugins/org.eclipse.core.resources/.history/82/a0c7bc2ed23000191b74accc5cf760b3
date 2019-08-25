@@ -1,0 +1,29 @@
+package linkedlist_demo;
+
+class Node{
+	int data;
+	Node next;
+	public Node(int data, Node next) {
+		super();
+		this.data = data;
+		this.next = next;
+	}	
+}
+public class geneLinkedlist_basdonArrayIndexValue {
+	Node head;	
+	public static void main(String[] args) {
+		int arr[]={ 2,3,5,4,0,1};
+		for(int i:arr){
+			System.out.print(i+" ");
+		}
+		System.out.println();
+		GenerateIndexBasedLL(arr);
+		
+	}
+	private static void GenerateIndexBasedLL(int[] arr) {
+		// TODO Auto-generated method stub
+		
+		
+		
+	}
+}

@@ -1,0 +1,37 @@
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Vector;
+
+public class Largest_number_using_set_of_numbers {
+	public static void main(String[] args) {
+		
+		 Vector<String> arr = new Vector<>();
+	     
+		 //output should be 6054854654
+	     arr.add("54");
+	     arr.add("546");
+	     arr.add("548");
+	     arr.add("60");
+	     printLargest(arr);
+	}
+
+	static void printLargest(Vector<String> arr){
+	     // TODO Auto-generated method stub
+		Collections.sort(arr,nw Comparator<StringT>(){
+			
+			 // A comparison function which is used by 
+	        // sort() in printLargest()
+	        @Override
+	        public int compare(String X, String Y){
+	        	
+	        	
+	        	
+	        }
+			
+		});
+		
+		
+		
+	}
+
+}

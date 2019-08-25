@@ -1,0 +1,11 @@
+package strings_test;
+
+public class firstNonRepeating02 {
+	public static void main(String[] args) {
+		 String str = "geeksforgeeks"; 
+	        int index =  firstNonRepeating(str); 
+	          
+	        System.out.println(index == -1 ? "Either all characters are repeating or string " + 
+	                   "is empty" : "First non-repeating character is " +  str.charAt(index)); 
+	}
+}

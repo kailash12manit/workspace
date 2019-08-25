@@ -1,0 +1,16 @@
+package strings_test;
+
+public class SubSequence {
+	public static void main(String[] args) {
+		String a= "abcefgh";
+		String b= "ach";
+		System.out.println(isSubsequence(a,b));	
+	}	
+	
+	public static boolean isSubsequence(String s , String t){
+		
+		
+		
+		return false;
+	}
+}

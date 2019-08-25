@@ -1,0 +1,57 @@
+package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class PRINCESS
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	    Scanner sc = new Scanner(System.in);
+		int t_case= Integer.parseInt(sc.nextLine());
+		while(t_case-->0){
+			String str= sc.nextLine();
+			System.out.println(str.length());
+			All_subString(str.toCharArray(),str.length());
+		}//t_Case
+	}//main
+
+	
+	public static void All_subString(char str[], int n) 
+	{   String temp="";
+	    // Pick starting point
+	    for (int len = 1; len <= n; len++) 
+	    {    
+	        // Pick ending point
+	        for (int i = 0; i <= n - len; i++) 
+	        {
+	            //  Print characters from current starting point to current ending point.  
+	            int j = i + len - 1;            
+	            for (int k = i; k <= j; k++) {
+	              	System.out.print(str[k]);
+	              	temp+=str[k];
+	            }
+	            if(temp.length()>1){
+	            	System.out.println(temp);
+	            	temp=null;
+	            }
+	            
+	        }
+	    }
+	    
+	}
+	
+	private static Boolean isPalindrome(char []arr) {
+		for (int i = 0; i < arr.length; i++) {
+			if(arr[i]==arr[arr.length-i-1]){
+				continue;
+			}
+			else{
+				return false;
+			}
+		}
+		return true;	
+	}
+}

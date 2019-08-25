@@ -1,0 +1,20 @@
+package linkedlist_demo;
+
+class Node{
+	int data;
+	Node next;
+	public Node(int data, Node next) {
+		super();
+		this.data = data;
+		this.next = next;
+	}	
+}
+public class geneLinkedlist_basdonArrayIndexValue {
+	Node head;	
+	public static void main(String[] args) {
+		int arr[]={ 2,3,5,4,0,1};
+		
+		
+	}
+
+}

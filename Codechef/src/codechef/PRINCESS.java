@@ -1,0 +1,56 @@
+package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class PRINCESS
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	    Scanner sc = new Scanner(System.in);
+		int t_case= Integer.parseInt(sc.nextLine());
+		while(t_case-->0){
+			Boolean result=false;
+			Boolean flag=false;
+			String str= sc.nextLine();
+			//System.out.println(str);
+			for (int i = 0; i < str.length(); i++) {
+		        for (int j = i+1; j <= str.length(); j++) {
+		            //System.out.println(str.substring(i,j));
+		        	String temp= str.substring(i,j);
+		        	if(temp.length()>1){
+		        		result = isPalindrome(temp.toCharArray());
+		        		if(result==true){
+		        			flag=true;
+		        			break;
+		        		}
+		        		
+		        	}
+		        	
+		        }
+		        
+		        if(flag==true)
+		        	break;
+		    }
+			if(flag==true){
+				System.out.println("YES");
+			}
+			else{
+				System.out.println("NO");
+			}
+			}//t_Case
+	}//main
+	private static Boolean isPalindrome(char []arr) {
+		for (int i = 0; i < arr.length; i++) {
+			if(arr[i]==arr[arr.length-i-1]){
+				continue;
+			}
+			else{
+				return false;
+			}
+		}
+		return true;	
+	}
+}

@@ -1,0 +1,18 @@
+package callable_future_java;
+
+class SumCalculator {
+	
+	
+}
+
+class FactorialCalculator {
+	
+	
+}
+
+public class CallableAndFutureExample {
+	public static void main(String[] args) {
+		
+	}
+
+}

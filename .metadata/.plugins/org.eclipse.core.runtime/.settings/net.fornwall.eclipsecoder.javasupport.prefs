@@ -1,0 +1,2 @@
+codeTemplatePreference=public class $CLASSNAME$ {\r\n\r\n\tpublic $RETURNTYPE$ $METHODNAME$($METHODPARAMS$) {\r\n\t\treturn $DUMMYRETURN$;\r\n\t}\r\n\r\n}\r\n
+eclipse.preferences.version=1

@@ -1,0 +1,57 @@
+package OCT18B;
+
+import java.util.Scanner;
+
+public class MINDSUM {
+	public static void main(String[] args) {
+		int t,n,d;
+		Scanner sc = new Scanner(System.in);
+		t= sc.nextInt();
+		while(t-->0){
+			int count=0;
+			int count1=0;
+			int count2=0;
+			n=sc.nextInt();
+			d=sc.nextInt();
+	
+			if(n==1){
+				System.out.println("1"+" 0");
+			}
+			else {
+				  n=add(n,d);
+				  count1++; // add
+				  int dsum=digitSum(n); 
+				  count2++;
+				  while(dsum>9){
+					  count2++;
+					  dsum=digitSum(dsum);
+				  }
+				  
+				
+			}
+			
+		}
+		
+		
+	}
+	public static int digitSum(int n){
+		int sum=0;
+		while(n>0){
+			sum+=n%10;
+			n=n/10;			
+		}		
+		System.out.println(sum);
+	    return sum;
+	}
+	public static int add(int a, int b){
+		return a+b;
+	}
+	//finding-sum-of-digits-of-a-number-until-sum-becomes-single-digit/
+	 static int digSum(int n) 
+	 { 
+	        if (n == 0)  
+	        return 0; 
+	        return (n % 9 == 0) ? 9 : (n % 9); 
+	 } 
+	
+}

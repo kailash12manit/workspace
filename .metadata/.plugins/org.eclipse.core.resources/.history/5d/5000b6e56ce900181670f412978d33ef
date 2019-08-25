@@ -1,0 +1,45 @@
+package callable_future_java;
+
+import java.util.concurrent.Callable;
+
+class SumCalculator implements Callable<Integer>{
+
+	int n;
+	public SumCalculator(int n){
+		this.n=n;
+	}
+	
+	@Override
+	public Integer call() {
+		// TODO Auto-generated method stub
+		for(int i=1;i<=n;i++){
+			n=n+i;
+		}
+		try{
+			Thread.sleep(2000);
+		}
+		catch (InterruptedException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return n;
+	}
+}
+
+class FactorialCalculator implements Callable<Integer> {
+
+	FactorialCalculator(){
+		
+	}
+	
+	call(){
+		
+	}
+}
+
+public class CallableAndFutureExample {
+	public static void main(String[] args) {
+		
+	}
+
+}

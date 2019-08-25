@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;calender_assistant&apos; to &apos;interview questions/src&apos;&#x0D;&#x0A;- Original project: &apos;flipkart_17_11_2018&apos;&#x0D;&#x0A;- Destination element: &apos;interview questions/src&apos;&#x0D;&#x0A;- Original element: &apos;flipkart_17_11_2018/src/calender_assistant&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=interview questions/src" element1="/src&lt;calender_assistant" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1547142542571" version="1.0"/>
+</session>

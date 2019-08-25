@@ -1,0 +1,9 @@
+package linkedlist_demo;
+
+public class geneLinkedlist_basdonArrayIndexValue {
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

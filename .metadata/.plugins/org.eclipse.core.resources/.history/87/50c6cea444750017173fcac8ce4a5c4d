@@ -1,0 +1,44 @@
+/**
+ * 
+ */
+package codechef;
+
+import java.util.Scanner;
+
+/**
+ * @author kailash
+ *
+ */
+public class SCHAR {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int tcase= sc.nextInt();
+		while(tcase-->0){
+			int cost=0;
+			String str= sc.next();
+			System.out.println(str);
+			char[] arr = str.toCharArray();
+			
+			for(int i=0;i<str.length()-1;i++){
+				int cost_i_to_j = 0;
+			    char s= arr[i];
+			    for(int j=i+1;j<str.length()-1;j++){
+			    	if(s==arr[j]){
+			    		cost_i_to_j = 0;
+			    		i=j;
+			    	}
+			    	else{
+			    		cost_i_to_j= Math.abs(arr[i]-arr[i+1]);
+			    	}
+			    }
+			    cost+=cost_i_to_j;
+			 }				
+			System.out.println(cost);
+		}
+	}
+}

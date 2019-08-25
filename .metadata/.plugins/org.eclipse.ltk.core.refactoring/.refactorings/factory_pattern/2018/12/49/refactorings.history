@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;factory_pattern&apos; to &apos;Basics/src&apos;&#x0D;&#x0A;- Original project: &apos;factory_pattern&apos;&#x0D;&#x0A;- Destination element: &apos;Basics/src&apos;&#x0D;&#x0A;- Original element: &apos;factory_pattern/src/factory_pattern&apos;" description="Copy package" destination="=Basics/src" element1="/src&lt;factory_pattern" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1543943636715" version="1.0"/>
+</session>

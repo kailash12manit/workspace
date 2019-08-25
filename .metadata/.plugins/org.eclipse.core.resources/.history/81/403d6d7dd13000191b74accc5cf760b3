@@ -1,0 +1,10 @@
+package linkedlist_demo;
+
+public class geneLinkedlist_basdonArrayIndexValue {
+	public static void main(String[] args) {
+		int arr[]={ 2,3,5,4,0,1};
+		
+		
+	}
+
+}

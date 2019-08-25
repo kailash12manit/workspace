@@ -1,0 +1,22 @@
+package strings_test;
+// https://www.geeksforgeeks.org/find-possible-words-phone-digits/
+
+import java.util.List;
+
+public class Print_all_possible_words_from_phone_digits {
+	
+	public static void main(String[] args) {
+		String str = "23";
+		List<String> aa = letterCombinations(str);
+		
+	}
+	
+	public List<String> letterCombinations(String digits) {
+		HashMap<Integer , String> map = new Hashmap<Integer , String>();
+		
+		
+		
+		
+		
+	}
+}

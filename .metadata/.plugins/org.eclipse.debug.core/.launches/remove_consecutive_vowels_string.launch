@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/DS Algorithms/src/strings_test/remove_consecutive_vowels_string.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_IN_FILE" value="C:\Users\kailash\workspace\codejam_2018\Output.txt"/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_OUTPUT_ON" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="strings_test.remove_consecutive_vowels_string"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="DS Algorithms"/>
+</launchConfiguration>

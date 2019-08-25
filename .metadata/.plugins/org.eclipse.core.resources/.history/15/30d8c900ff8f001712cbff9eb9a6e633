@@ -1,0 +1,14 @@
+package codechef;
+
+import java.util.Scanner;
+
+public class CHEFSUM {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		int text_case= sc.nextInt();
+		
+		
+		
+	}
+
+}

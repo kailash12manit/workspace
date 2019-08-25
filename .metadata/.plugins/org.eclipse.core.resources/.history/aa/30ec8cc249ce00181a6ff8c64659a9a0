@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package Java_Multithreading;
+
+import java.util.LinkedList;
+
+/**
+ * @author kailash
+ *
+ */
+public class PC_Example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}
+class PC{
+	LinkedList<Integer> ll = new LinkedList<Integer>();
+	
+	
+}

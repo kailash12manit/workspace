@@ -1,0 +1,14 @@
+package DP;
+
+import java.util.Scanner;
+
+public class multiply_in_various_number_system {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		
+				
+	}
+}

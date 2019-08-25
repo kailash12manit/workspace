@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package strings_demo;
+
+/**
+ * @author kailash
+ *
+ */
+public class StringDemo {
+
+	/**
+	 * 
+	 */
+	public StringDemo() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char[] helloArray = { 'h', 'e', 'l', 'l', 'o' };
+	    String helloString = new String(helloArray);  
+	    System.out.println( helloString );
+	    String B = new String("hello")
+	
+	}
+
+}

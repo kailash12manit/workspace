@@ -1,0 +1,73 @@
+package codechef;
+import java.util.*;
+/*
+ * An empty village is said to be controlled by a tribe of village A if it is
+ * surrounded by villages of tribes A from the left and from the right. 
+ * Same goes for the tribe B.
+ */
+public class VILTRIBE {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int t=sc.nextInt();
+		sc.nextLine();
+		while(t-->0){
+			int countA=0;
+			int countB=0;	
+			String str=sc.nextLine();   // A..A..B...B
+			//System.out.println(str);
+			for(int i=0;i<str.length();i++){
+				//System.out.println("char:"+str.charAt(i));
+				if(str.charAt(i)=='A'){
+					countA++;
+					//System.out.println(countA);
+				}
+				else if(str.charAt(i)=='B'){
+					countB++;
+				}
+				else {
+					    if( i==0 || i== ( str.length()-1) ){
+						   continue;
+				        }
+					    
+						char left='N';
+						char right='Y';
+						for(int j=i-1;j>=0;j--){
+							if(str.charAt(j)=='.'){
+								continue;
+							}
+							if(str.charAt(j)=='A'){
+								left='A';
+								break;
+							}
+							else{
+								left='B';
+								break;
+							}
+						}
+						for(int j=i+1;j<str.length();j++){
+							if(str.charAt(j)=='.'){
+								continue;
+							}
+							if(str.charAt(j)=='A'){
+								right='A';
+								break;
+							}
+							else{
+								right='B';
+								break;
+							}
+						}
+						if(left=='A' && right=='A'){
+							countA++;
+						}
+						if(left=='B'  && right=='B'){
+							countB++;
+						}
+						
+					}
+							
+			}
+			System.out.println(countA+" "+countB);
+		}
+	}
+}

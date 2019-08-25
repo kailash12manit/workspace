@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;exception_handling&apos; to &apos;Basics/src&apos;&#x0D;&#x0A;- Original project: &apos;exception-handling-in-java&apos;&#x0D;&#x0A;- Destination element: &apos;Basics/src&apos;&#x0D;&#x0A;- Original element: &apos;exception-handling-in-java/src/exception_handling&apos;" description="Copy package" destination="=Basics/src" element1="/src&lt;exception_handling" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1543943593044" version="1.0"/>
+</session>

@@ -1,0 +1,22 @@
+package strings_test;
+
+public class SubSequence {
+	public static void main(String[] args) {
+		String a= "abcefgh";
+		String b= "ach";
+		
+		//Given a string s and a string t, check if s is subsequence of t.
+		
+		System.out.println(isSubsequence(a,b));	
+	}	
+	
+	public static boolean isSubsequence(String s , String t){
+		if(s.length()==0){
+			return true;			
+		}
+		
+		
+		
+		return false;
+	}
+}

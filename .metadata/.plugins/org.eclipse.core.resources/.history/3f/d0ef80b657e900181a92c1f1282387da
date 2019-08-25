@@ -1,0 +1,25 @@
+package join_method;
+
+class myThread2 implements Runnable{
+	
+	private String name;
+	public myThread2(String name){
+		this.name=name;
+	}
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Start Thread :"+name);
+		try {
+				Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("Ended Thread :"+name);
+	}
+}
+public class Thread_Pool_concept_using_threads {
+
+}

@@ -1,0 +1,10 @@
+package strings_test;
+// https://www.geeksforgeeks.org/find-possible-words-phone-digits/
+
+public class Print_all_possible_words_from_phone_digits {
+	
+	public static void main(String[] args) {
+		char hashTable[10][5] = {"", "", "abc", "def", "ghi", "jkl", 
+                "mno", "pqrs", "tuv", "wxyz"};		
+	}
+}

@@ -1,0 +1,30 @@
+package strings_test;
+
+class CountIndex 
+{ 
+    int count,index; 
+      
+    // constructor for first occurrence 
+    public CountIndex(int index) { 
+        this.count = 1; 
+        this.index = index; 
+    } 
+      
+    // method for updating count 
+    public void incCount() { 
+        this.count++; 
+    } 
+} 
+
+public class firstNonRepeating01 {
+	public static void main(String[] args) {
+	
+		String str = "geeksforgeeks"; 
+        int index =  firstNonRepeating(str); 
+          
+        System.out.println(index == Integer.MAX_VALUE ? "Either all characters are repeating " + 
+              " or string is empty" : "First non-repeating character is " +  str.charAt(index)); 
+        
+		
+	}
+}

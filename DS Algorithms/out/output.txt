@@ -1,0 +1,12 @@
+Iterator number is : 1
+City -: Delhi
+City -: Bangalore
+Iterator number is : 2
+City -: Mumbai
+City -: kolkata
+City -: punjab
+Iterator number is : 3
+City -: Bhopal
+City -: Indore
+City -: PALERA
+City -: JHS

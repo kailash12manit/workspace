@@ -1,0 +1,30 @@
+package OCT18B;
+
+import java.util.Scanner;
+
+public class MINDSUM {
+	public static void main(String[] args) {
+		int t,n,d;
+		Scanner sc = new Scanner(System.in);
+		t= sc.nextInt();
+		while(t-->0){
+			n=sc.nextInt();
+			d=sc.nextInt();
+			
+			digitSum(456);
+		}
+		
+		
+	}
+	private int digitSum(int n){
+		int sum=0;
+		while(n>0){
+			sum+=n%10;
+			n=n/10;			
+		}		
+		System.out.println(sum);
+	    return sum;
+	}
+	
+
+}

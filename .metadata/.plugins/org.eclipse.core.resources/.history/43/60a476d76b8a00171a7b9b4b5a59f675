@@ -1,0 +1,29 @@
+package codechef;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class MATPAN {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int t= sc.nextInt();
+		while(t-->0){
+			int[] price= new int [26];
+			Arrays.fill(price,0);
+			for(int i=0;i<26;i++){
+				System.out.println(price[i]+" ");
+			}
+			for(int i=0;i<26;i++){
+				price[i]=sc.nextInt();
+			}
+			char[] input_char= new char[26];
+			String str= sc.nextLine();
+			for(int i=0;i<str.length();i++){
+				input_char[str.toCharArray()[i]-'a']++;
+			}
+			for (int i = 0; i < input_char.length; i++) {
+				System.out.print(input_char[i]+" ");
+			}
+		}
+	}
+}

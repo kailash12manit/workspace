@@ -1,0 +1,20 @@
+package OCT18B;
+
+import java.util.Scanner;
+
+public class BITOBYT {
+	public static void main(String[] args) {
+		int t,n,d;
+		Scanner sc = new Scanner(System.in);
+		t= sc.nextInt();
+		while(t-->0){
+			n=sc.nextInt();
+					
+			
+			
+			
+		}
+		
+		
+	}
+}
